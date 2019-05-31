@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+  int ano;
+  char nome[30];
+
+  printf("Informe o seu nome:");
+  scanf("%s", nome);
+  printf("Informe o ano:");
+  scanf("%d", &ano);
+
+  printf("Olá %s, você informou o ano de %d", nome, ano);
+
+  return 0;
+}
