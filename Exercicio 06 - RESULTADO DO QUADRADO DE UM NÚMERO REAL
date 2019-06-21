@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+  float real, resultadoQuadrado;
+
+  printf("Informe um número real:\n");
+  scanf("%f", &real);
+
+  resultadoQuadrado = real * 2;
+
+  printf("O resultado do quadrado desse número é igual a %f", resultadoQuadrado);
+  return 0;
+}
