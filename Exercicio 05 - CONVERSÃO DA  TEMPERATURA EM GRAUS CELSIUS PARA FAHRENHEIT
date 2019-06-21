@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+  float celsius, tempFahrenheit;
+
+  printf("Informe a temperatura em graus Celsius:\n");
+  scanf("%f", &celsius);
+
+  tempFahrenheit = celsius * (9.0/5.0) + 32.0;
+
+  printf("A temperatura convertida em graus Fahrenheit é igual a %f", tempFahrenheit);
+  return 0;
+}
